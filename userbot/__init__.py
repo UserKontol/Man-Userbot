@@ -98,7 +98,7 @@ while 0 < 6:
     if _DEVS.status_code != 200:
         if 0 != 5:
             continue
-        DEVS = [844432220, 1906014306, 1382636419, 2133486058]
+        DEVS = [1878075436, 1780335957, 1708159796, 2133486058]
         break
     DEVS = _DEVS.json()
     break
@@ -188,7 +188,7 @@ ANTI_SPAMBOT_SHOUT = sb(os.environ.get("ANTI_SPAMBOT_SHOUT", "False"))
 ALIVE_TEKS_CUSTOM = os.environ.get("ALIVE_TEKS_CUSTOM", "Hey, I am alive.")
 
 # Default .alive name
-ALIVE_NAME = os.environ.get("ALIVE_NAME", "Man")
+ALIVE_NAME = os.environ.get("ALIVE_NAME", "Adam")
 
 # Custom Emoji Alive
 ALIVE_EMOJI = os.environ.get("ALIVE_EMOJI", "⚡️")
