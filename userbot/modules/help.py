@@ -27,11 +27,11 @@ async def help(event):
             string += f"`\t\t\t{ICON_HELP}\t\t\t"
         await edit_or_reply(
             event,
-            f"**✦ Daftar Perintah Untuk [Man-Userbot](https://github.com/mrismanaziz/Man-Userbot):**\n"
+            f"**✦ Daftar Perintah Untuk Adam-Userbot**\n"
             f"**✦ Jumlah** `{len(CMD_HELP)}` **Modules**\n"
             f"**✦ Owner:** [{user.first_name}](tg://user?id={user.id})\n\n"
             f"{ICON_HELP}   {string}"
-            f"\n\nSupport @{CHANNEL}",
+            f"\n\nSupport @adamkodeubot",
         )
         await event.reply(
             f"\n**Contoh Ketik** `{cmd}help afk` **Untuk Melihat Informasi Module**"
