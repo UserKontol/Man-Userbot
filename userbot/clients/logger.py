@@ -19,7 +19,7 @@ from userbot.utils import checking
 MSG_ON = """
 🔥 **Adam-Userbot Berhasil Di Aktifkan**
 ━━
-➠ **Userbot Version -** `{}@{}`
+➠ **Userbot Version -** `{}@adam-userbot`
 ➠ **Ketik** `{}alive` **untuk Mengecheck Bot**
 ━━
 """
